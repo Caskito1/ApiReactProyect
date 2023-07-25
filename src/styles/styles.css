@@ -50,8 +50,7 @@
 }
 
 .texto{
-    text-align: center;
-  
+    text-align: center; 
     margin: 20px;
    
   
@@ -60,8 +59,13 @@
 .texto p{
     text-decoration: none;
     color: aquamarine;
-    line-height: 1.5rem;
+    line-height: 1rem;
+    transition: 0.2s ease-in-out;
 
+}
+
+.texto:hover{
+    font-size: 20px ;
 }
 
 .texto p span{
