@@ -1,0 +1,70 @@
+
+.container{
+    display: flex;
+    align-self: center;
+    flex-direction: column
+}
+
+.container-card{
+    width: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.titulo{
+    text-transform: uppercase;
+    color: aquamarine;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.Card{
+    width: 250px;
+    height: 400px;
+    
+    border-radius: 5%;
+    padding: 20px;
+    transition: 0.2s ease-in-out;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border: solid 2px aquamarine;
+}
+
+.Card:hover{
+
+    box-shadow: 10px 5px 10px 5px rgb(34, 34, 34) ;
+    width: 270px;
+    border: solid 2px white;
+
+}
+
+.imagen{
+    overflow: hidden;
+    border-radius: 5%;
+    padding-bottom: 20px;
+    width: 250px;
+
+}
+
+.texto{
+    text-align: center;
+  
+    margin: 20px;
+   
+  
+}
+
+.texto p{
+    text-decoration: none;
+    color: aquamarine;
+    line-height: 1.5rem;
+
+}
+
+.texto p span{
+    color: white;
+    font-weight: 700;
+}
